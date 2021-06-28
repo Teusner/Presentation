@@ -1,0 +1,38 @@
+\documentclass[9pt]{beamer}
+
+\usepackage[sfdefault]{roboto}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+\usepackage{styles/fluxmacros}
+\usefolder{styles}
+% Use Flux theme v0.1 beta
+% Available style: asphalt, blue, red, green, gray 
+\usetheme[style=flux]{flux}
+
+\usepackage{booktabs}
+\usepackage{colortbl}
+\usepackage{multicol}
+
+\usepackage{caption}
+\usepackage{subcaption}
+\setbeamertemplate{caption}[numbered]
+
+\title{Quentin Brateau}
+\subtitle{Présentation de mon parcours}
+\author{Quentin Brateau}
+\institute{\includegraphics[width=3.5cm]{images/logo_ensta.jpg}}
+\date{\today}
+\titlegraphic{images/logo_ensta.png}
+
+\begin{document}
+
+	\titlepage
+	
+	\input{slides/ensta.tex}
+	\input{slides/internship_forssea.tex}
+	\input{slides/project_guerledan.tex}
+	\input{slides/project_magmap.tex}
+	\input{slides/project_autoland.tex}
+
+\end{document}
